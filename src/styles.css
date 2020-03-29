@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: white;
+}
+#heeader {
+  background: rgb(91, 187, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#weather {
+  border: 1px solid #ddd;
+  padding-bottom: 25px;
+}
+#everything {
+  max-width: 700px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding-bottom: 25px;
+}
+#advice {
+  color: rgb(112, 112, 112);
+}
+#button1 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  border: 1px solid #ddd;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: white;
+  color: rgb(91, 187, 216);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  max-width: 50%;
+  transition: all 0.2s;
+}
+#button1:hover {
+  background: rgb(91, 187, 216);
+  color: white;
+}
+#error {
+  color: red;
+}
+#stats {
+  border: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+#hiddenmore {
+  display: none;
+}
+#loadingif {
+  display: none;
+  margin-bottom: 5px;
+  margin: auto;
+}
+
+#cityinput {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 50%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  outline: none;
+}
